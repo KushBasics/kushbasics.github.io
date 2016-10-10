@@ -22,13 +22,13 @@ hr {
 	opacity: .9;
 }
 
-#rbgdefaultbody a, #rbgdefaultbody a:link, #rbgdefaultbody a:visited, #rbgdefaultbody a:active {
+#mbdefaultbody a, #mbdefaultbody a:link, #mbdefaultbody a:visited, #mbdefaultbody a:active {
 	color: #A7916E;		/* hyperlink color for default pages */
 	font-weight: bold;
 	text-decoration: underline;
 }
 
-#rbgdefaultbody a:hover {
+#mbdefaultbody a:hover {
 	color: #C4B59E;		/* color when hyperlinks hovered over on default pages*/ 
 }
 
@@ -46,7 +46,7 @@ hr {
   border-radius: 0;
 }
 
-#rbgnavbar a:hover, a, li, .dropdown-menu li:hover {
+#mbnavbar a:hover, a, li, .dropdown-menu li:hover {
     color: #000000;
 }
 
@@ -127,12 +127,12 @@ hr {
 	font-weight: bold;
 }
 
-#navbarbg {
+#navbamb {
 	background-color: #00502F;
 	width: 100%;
 }
 
-#rbgnavbar {
+#mbnavbar {
 	max-width: 1280px;
 	margin-left:auto;
 	margin-right:auto;
@@ -314,7 +314,7 @@ hr {
 	    clear: right;
 	 }
 	 
-	 #rbgdefaultbody {
+	 #mbdefaultbody {
 		margin-top: -65px;
 	    position: relative;
 	    clear: right;
@@ -327,10 +327,10 @@ hr {
 /*****************************************/
 
 /************************/
-/** Begin RBG Info Div **/
+/** Begin mb Info Div **/
 /************************/
 
-#rbg-info-wrapper1, #rbg-info-wrapper2 {
+#mb-info-wrapper1, #mb-info-wrapper2 {
 	clear: both;
 }
 
@@ -343,8 +343,8 @@ hr {
 	font-size: 11px;
 }
 
-#rbginfobg {
-	background-color: rgba(0,0,0,0.5); /* IMPORTANT: Use ONLY rbga here instead of rbg or hex so that opacity of the background color is not inherited */
+#mbinfobg {
+	background-color: rgba(0,0,0,0.5); /* IMPORTANT: Use ONLY mba here instead of mb or hex so that opacity of the background color is not inherited */
 	width: 100%;
 	min-height: 180px;
 	position: absolute;
@@ -356,22 +356,22 @@ hr {
 	position: absolute;
 }
 
-#rbginfobg2 {
+#mbinfobg2 {
 	position: relative;
 }
 
-#rbginfo, #rbginfo2 {
+#mbinfo, #mbinfo2 {
 	max-width: 1280px;
 	margin: 0 auto 0 auto;
 	color: #FFFFFF;
 }
 
-#rbghours {
+#mbhours {
 	text-align: center;
 	font-size: 11px;
 }
 
-#rbgadmission table, #rbgadmission2 table {
+#mbadmission table, #mbadmission2 table {
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 11px;
@@ -402,7 +402,7 @@ hr {
 	float: left;
 }
 
-.rbghours {
+.mbhours {
 	display: block;
 	margin: 40px auto 0 auto;
 	width: 138px;
@@ -410,11 +410,11 @@ hr {
 	background: url('../images/sprites.png') -0px -320px ;
 }
 
-.rbghours:hover {
+.mbhours:hover {
 	opacity: .9;
 }
 
-.rbgadmission{
+.mbadmission{
 	display:block;
 	margin: 40px auto 0 auto;
 	width:138px;
@@ -422,11 +422,11 @@ hr {
 	background: url('../images/sprites.png') -140px -325px ;
 }
 
-.rbgadmission:hover {
+.mbadmission:hover {
 	opacity: .9;
 }
 
-.rbgdirections {
+.mbdirections {
 	display: block;
 	margin: 40px auto 0 auto;
 	width:138px;
@@ -434,11 +434,11 @@ hr {
 	background: url('../images/sprites.png') -310px -169px ;
 }
 
-.rbgdirections:hover {
+.mbdirections:hover {
 	opacity: .9;
 }
 
-.rbgweather {
+.mbweather {
 	display: block;
 	margin: 40px auto 0 auto;
 	width:138px;
@@ -446,20 +446,20 @@ hr {
 	background: url('../images/sprites.png') -172px -169px ;
 }
 
-.rbgweather:hover {
+.mbweather:hover {
 	opacity: .9;
 }
 
-#rbgadmission, #rbgadmission2, #rbgdirections, #rbgweather, #rbghours {
+#mbadmission, #mbadmission2, #mbdirections, #mbweather, #mbhours {
 	min-width: 233px;
 	min-height: 200px;
 }
 
-#rbgdirectionshidden, #rbgweatherhidden, #rbghidden {
+#mbdirectionshidden, #mbweatherhidden, #mbhidden {
 	display: none;
 }
 
-#rbgweatherhidden {
+#mbweatherhidden {
 	height: 100%
 }
 
@@ -470,19 +470,19 @@ hr {
 /* For small devices, and after navbar collapses */ 
 @media only screen and (max-width : 950px) {
   	
-  	#rbg-info-wrapper1 {
+  	#mb-info-wrapper1 {
 	  	display: none;
   	}
   	
-  	#rbginfobg {
+  	#mbinfobg {
 	  	position: relative;
   	}
   
-	#rbgdirections img, #rbgweather img {
+	#mbdirections img, #mbweather img {
 		margin: 5px auto 5px auto;
 	}
 	
-	#rbghours, #rbgadmission, #rbgadmission2, #rbgdirections, #rbgweather {
+	#mbhours, #mbadmission, #mbadmission2, #mbdirections, #mbweather {
 		background-color: #196143;
 		border-top: black 1px solid;
 		clear: both;
@@ -490,7 +490,7 @@ hr {
 	}
 	
 	/* Padding around these divs and their images after collapsing */
-	.rbgdirections, .rbgweather {
+	.mbdirections, .mbweather {
 		margin: 5px auto 10px auto;
 	}
 
@@ -498,7 +498,7 @@ hr {
 
 @media only screen and (min-width: 950px) {
 	
-	#rbg-info-wrapper2 {
+	#mb-info-wrapper2 {
 		display: none;
 	}
 	
@@ -506,25 +506,25 @@ hr {
 
 @media only screen and (max-width: 950px) {
 	
-	#rbg-info-wrapper1{
+	#mb-info-wrapper1{
 		display: none;
 	}
 }
 
 /************************/
-/**  End RBG Info Div  **/
+/**  End mb Info Div  **/
 /************************/
 
 /* Begin Home Template Body */
 
-#rbghomebody {
+#mbhomebody {
 	max-width:1280px;
 	margin: 0 auto 0 auto;
 	padding: 15px;
 }
 
 
-#rbghomebody img {
+#mbhomebody img {
 	margin: 5px auto 5px auto;
 	width: 100%;
 	height: auto;
@@ -534,7 +534,7 @@ hr {
 
 /* Begin Default Template Body */
 
-#rbgdefaultbody {
+#mbdefaultbody {
 	max-width:1280px;
 	clear: both;
 	position: relative;
@@ -543,7 +543,7 @@ hr {
 }
 
 /*
-#rbgdefaultbody h1, h2, h3, p {
+#mbdefaultbody h1, h2, h3, p {
 	padding-left: 5px;
 	padding-right: 5px;
 }
@@ -720,7 +720,7 @@ hr {
 
 /*** Begin Pre-Footer ***/
 
-#prefooterbg {
+#prefootemb {
 	background-color: #F2EDE4;
 	width: 100%;
 	border-top: 1px solid #000000;
@@ -797,18 +797,18 @@ hr {
 
 /*** Begin Footer ***/
 
-#rbgfooterbg {
+#mbfootemb {
 	background-color: #00502F;
 	width: 100%;
 }
 
-#rbgfooter {
+#mbfooter {
   max-width: 1280px;
   margin: 0 auto 0 auto;
   background-color:#00502F;
 }
 
-#rbgfooterlinks {
+#mbfooterlinks {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 1280px;
@@ -816,13 +816,13 @@ hr {
 	text-align: center;
 }
 
-#rbgfooterlinks ul {
+#mbfooterlinks ul {
     margin: 0 auto;                  /* center container */
     padding-left: 0;                 /* remove list padding */
     font-size: 0;                    /* remove inline-block white space; see http://stackoverflow.com/a/32801275/3597276 */
 }
 
-#rbgfooterlinks li {
+#mbfooterlinks li {
     display: inline-block;
     font-size: 10px;
     list-style-type: none;
@@ -831,13 +831,13 @@ hr {
     color: #FFFFFF;
 }
 
-#rbgfooterlinks a:link, a:visited, a:active {
+#mbfooterlinks a:link, a:visited, a:active {
 	color: #FFFFFF;
 	font-weight: bold;
 	text-decoration: none;
 }
 
-#rbgfooterlinks a:hover {
+#mbfooterlinks a:hover {
 	color: #C4B59E;
 }
 
@@ -1141,11 +1141,11 @@ hr {
 		min-height: 227px;
 	}
 	
-	#rbgdefaultbody #memcontain h1 {
+	#mbdefaultbody #memcontain h1 {
 		font-size: 22px;
 	}
 	
-	#rbgdefaultbody #memcontain h2 {
+	#mbdefaultbody #memcontain h2 {
 		font-size: 20px;
 	}
 	
@@ -1259,7 +1259,7 @@ hr {
 		margin: 0 !important;
 	}
 	
-	#rbgdefaultbody .memfaqwrap a, #rbgdefaultbody .memfaqwrap a:hover, #rbgdefaultbody .memfaqwrap a:active, #rbgdefaultbody .memfaqwrap a:visited, #rbgdefaultbody .memfaqwrap a:link {
+	#mbdefaultbody .memfaqwrap a, #mbdefaultbody .memfaqwrap a:hover, #mbdefaultbody .memfaqwrap a:active, #mbdefaultbody .memfaqwrap a:visited, #mbdefaultbody .memfaqwrap a:link {
 		text-decoration: none;
 		color: #FFFFFF;
 		font-weight: normal;
@@ -1314,9 +1314,9 @@ hr {
 
 /* End Wrapper for Google Maps */
 
-/* Being CSS for RBG Banner Images */
+/* Being CSS for mb Banner Images */
 
-	.rbgbanner {
+	.mbbanner {
 		max-width: 1280px;
 		width:100%;
 		margin-left: auto;
@@ -1324,14 +1324,14 @@ hr {
 		clear: both;
 	}
 	
-	.rbgbanner img {
+	.mbbanner img {
 		width: 100%;
 		height: auto;
 		margin-left: auto;
 		margin-right: auto;
 	}
 
-/* End CSS for RBG Banner Images*/
+/* End CSS for mb Banner Images*/
 
 /* Begin Accordion Panel Colors */
 
@@ -1340,17 +1340,17 @@ hr {
 }
 
 
-#rbgdefaultbody .panel-default a, #rbgdefaultbody .panel-default a:link, #rbgdefaultbody .panel-default a:visited, #rbgdefaultbody .panel-default a:active { /* sets link color for panels to black with no underline  */
+#mbdefaultbody .panel-default a, #mbdefaultbody .panel-default a:link, #mbdefaultbody .panel-default a:visited, #mbdefaultbody .panel-default a:active { /* sets link color for panels to black with no underline  */
 	color: #000000;
 	text-decoration: none;
 }
 
-#rbgdefaultbody .panel-body a, #rbgdefaultbody .panel-body a:link, #rbgdefaultbody .panel-body a:visited, #rbgdefaultbody .panel-body a:active { /* sets link colors inside panels back to site defaults */
+#mbdefaultbody .panel-body a, #mbdefaultbody .panel-body a:link, #mbdefaultbody .panel-body a:visited, #mbdefaultbody .panel-body a:active { /* sets link colors inside panels back to site defaults */
 	color: #A7916E;		/* hyperlink color for default pages */
 	text-decoration: underline;
 }
 
-#rbgdefaultbody .panel-body a:hover {
+#mbdefaultbody .panel-body a:hover {
 	color: #C4B59E;		/* sets color when hyperlinks hovered over on pages within panel back to site defaults */ 
 }
 
