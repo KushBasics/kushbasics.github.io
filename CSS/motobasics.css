@@ -11,8 +11,8 @@ h1, h2, h3, h4, h5, h6 {
 
 hr {
 	height: 2px;
-	color: #000000;
-	background-color: #000000;
+	color: #196143;
+	background-color: #196143;
 	border: none;
 	margin-top: 3px;
 	margin-bottom: 3px;
@@ -63,7 +63,7 @@ hr {
 	.navbar-inverse .navbar-toggle:focus, 		/* menu icon background color when it is clicked into */
 	.navbar-inverse .navbar-toggle:hover 		/* menu icon background color when hovered over */
 	{
-	background-color: #000000 !important; /* Overwrites Bootstrap's !important */
+	background-color: #196143 !important; /* Overwrites Bootstrap's !important */
 }
 
 /* Makes headers of the dropdown menus white and bold */
@@ -128,7 +128,7 @@ hr {
 }
 
 #navbamb {
-	background-color: #00502F;
+	background-color: #000000;
 	width: 100%;
 }
 
@@ -136,7 +136,7 @@ hr {
 	max-width: 1280px;
 	margin-left:auto;
 	margin-right:auto;
-	background-color:#00502F;
+	background-color:#000000;
 }
 
 .logo {
@@ -478,7 +478,7 @@ hr {
 	}
 	
 	#mbhours, #mbadmission, #mbadmission2, #mbdirections, #mbweather {
-		background-color: #000000;
+		background-color: #196143;
 		border-top: black 1px solid;
 		clear: both;
 		width: 100%;
@@ -793,14 +793,14 @@ hr {
 /*** Begin Footer ***/
 
 #mbfootemb {
-	background-color: #00502F;
+	background-color: #000000;
 	width: 100%;
 }
 
 #mbfooter {
   max-width: 1280px;
   margin: 0 auto 0 auto;
-  background-color:#00502F;
+  background-color:#000000;
 }
 
 #mbfooterlinks {
@@ -963,7 +963,7 @@ hr {
 /* End Footer Sprite CSS */
 
 #uofu {
-	background-color: #00502F;
+	background-color: #000000;
 	padding-top: 44px;
 }
 
@@ -977,7 +977,7 @@ hr {
 }
 
 #footerlogo {
-	background-color: #00502F;
+	background-color: #000000;
 	padding-top: 15px;
 }
 
@@ -991,7 +991,7 @@ hr {
 }
 
 #zap {
-	background-color: #00502F;
+	background-color: #000000;
 	padding-top: 17px;
 }
 
@@ -1168,7 +1168,7 @@ hr {
 }
 
 .membutton{
-	background-color: #000000;
+	background-color: #196143;
 	color: #FFFFFF;
 	width: 190px;
 	height: 40px;
@@ -1196,7 +1196,7 @@ hr {
 .membenefits  {
 	max-width: 630px;
 	text-align: center;
-	background-color: #000000;
+	background-color: #196143;
 	color: #FFFFFF;
 	height: 100px;
 	margin-left: auto;
@@ -1242,7 +1242,7 @@ hr {
 		opacity: 1;
 		margin-bottom: 4px;
 		padding: 0;
-		background-color: #000000;
+		background-color: #196143;
 	}
 	
 	.memfaq:hover {
@@ -1261,7 +1261,7 @@ hr {
 	}
 	
 	.renewbutton {
-		background-color: #000000;
+		background-color: #196143;
 		color: #FFFFFF;
 		max-width: 325px;
 		min-height: 40px;
@@ -1608,7 +1608,7 @@ hr {
 	
 	
 	.artistwebsite{
-		background-color:#00502F;
+		background-color:#000000;
 		border: 0px black solid;
 		border-radius: 2px; 
 		color: #fff;
@@ -1805,7 +1805,7 @@ hr {
 	width: 80%;
 	z-index: 5;
 	bottom: 60px;
-	background-color: #000000;
+	background-color: #196143;
 	padding: 15px;
 }
 
