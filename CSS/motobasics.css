@@ -11,8 +11,8 @@ h1, h2, h3, h4, h5, h6 {
 
 hr {
 	height: 2px;
-	color: #7E7E7E;
-	background-color: #7E7E7E;
+	color: #2F2F2F;
+	background-color: #2F2F2F;
 	border: none;
 	margin-top: 3px;
 	margin-bottom: 3px;
@@ -63,7 +63,7 @@ hr {
 	.navbar-inverse .navbar-toggle:focus, 		/* menu icon background color when it is clicked into */
 	.navbar-inverse .navbar-toggle:hover 		/* menu icon background color when hovered over */
 	{
-	background-color: #7E7E7E !important; /* Overwrites Bootstrap's !important */
+	background-color: #2F2F2F !important; /* Overwrites Bootstrap's !important */
 }
 
 /* Makes headers of the dropdown menus white and bold */
@@ -478,7 +478,7 @@ hr {
 	}
 	
 	#mbhours, #mbadmission, #mbadmission2, #mbdirections, #mbweather {
-		background-color: #7E7E7E;
+		background-color: #2F2F2F;
 		border-top: black 1px solid;
 		clear: both;
 		width: 100%;
@@ -1168,7 +1168,7 @@ hr {
 }
 
 .membutton{
-	background-color: #7E7E7E;
+	background-color: #2F2F2F;
 	color: #FFFFFF;
 	width: 190px;
 	height: 40px;
@@ -1196,7 +1196,7 @@ hr {
 .membenefits  {
 	max-width: 630px;
 	text-align: center;
-	background-color: #7E7E7E;
+	background-color: #2F2F2F;
 	color: #FFFFFF;
 	height: 100px;
 	margin-left: auto;
@@ -1242,7 +1242,7 @@ hr {
 		opacity: 1;
 		margin-bottom: 4px;
 		padding: 0;
-		background-color: #7E7E7E;
+		background-color: #2F2F2F;
 	}
 	
 	.memfaq:hover {
@@ -1261,7 +1261,7 @@ hr {
 	}
 	
 	.renewbutton {
-		background-color: #7E7E7E;
+		background-color: #2F2F2F;
 		color: #FFFFFF;
 		max-width: 325px;
 		min-height: 40px;
@@ -1805,7 +1805,7 @@ hr {
 	width: 80%;
 	z-index: 5;
 	bottom: 60px;
-	background-color: #7E7E7E;
+	background-color: #2F2F2F;
 	padding: 15px;
 }
 
