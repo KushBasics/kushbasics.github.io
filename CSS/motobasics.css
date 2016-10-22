@@ -291,7 +291,7 @@ hr {
     color: #FFFFFF;
 }
 
-#mbfooterlinks a:link, a:visited, a:active {
+#mbfooterlinks a:link, #mbfooterlinks a:visited, #mbfooterlinks a:active {
 	color: #FFFFFF;
 	font-weight: bold;
 	text-decoration: none;
