@@ -324,10 +324,6 @@ hr {
 	margin: 0px 11px 4px 11px;
 }
 
-.uofu:hover, .footerlogo:hover, .zap:hover {
-	opacity: .9;
-}
-
 .space hr {
 	height: 4px;
 	visibility: hidden;
