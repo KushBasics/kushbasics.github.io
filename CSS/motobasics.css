@@ -224,13 +224,7 @@ hr {
 	 	clear:right;
 	 	position: relative;
 	 	padding-bottom: 0px;
-	 }
-                       
-	 #slider-wrapper  {
-	 	margin-top: -20px;
-	    position: relative;
-	    clear: right;
-	 }
+	 }                      
 	 
 	 #mbdefaultbody {
 		margin-top: -65px;
@@ -270,7 +264,7 @@ hr {
 	clear: both;
 	position: relative;
 	float: none;
-	padding: 65px 15px 15px 15px;
+	padding: 150px 15px 15px 15px;
 }
 
 /*
