@@ -275,6 +275,9 @@ hr {
 	position: relative;
 	float: none;
 	padding: 200px 15px 15px 15px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: gray;
 }
 
 /* End Default Template Body */
