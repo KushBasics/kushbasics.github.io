@@ -146,7 +146,7 @@ hr {
 }
 
 #mbnavbar {
-	max-width: 50%;
+	max-width: 1400px;
 	margin-left:auto;
 	margin-right:auto;
 	background-color:#000000;
@@ -226,7 +226,11 @@ hr {
 	 	padding-bottom: 0px;
 	 }
                        
-
+	 #slider-wrapper  {
+	 	margin-top: -20px;
+	    position: relative;
+	    clear: right;
+	 }
 	 
 	 #mbdefaultbody {
 		margin-top: -65px;
