@@ -28,9 +28,8 @@ hr {
 	text-decoration: underline;
 }
 
-#mbdefaultbody a:hover {
-	color: #C4B59E;		/* color when hyperlinks hovered over on default pages*/ 
-	text-shadow: 1px 0px 20px #FF0000;
+#mbdefaultbody a:hover {		 
+	text-shadow: 1px 0px 20px #FF0000; /* glow color when hyperlinks hovered over on default pages*/
 }
 
 .logo img {
