@@ -43,7 +43,7 @@ hr {
 	margin-right: 15px;
 }
 
-.searchicon img:hover {
+.searchicon:hover {
 	background-color: #FF0000;
 }
 
