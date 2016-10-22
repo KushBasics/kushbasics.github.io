@@ -36,10 +36,6 @@ hr {
 	max-width: 150px;
 }
 
-.logo img:hover {
-    background-color: #FF0000;
-}
-
 .searchicon img {
 	max-width: 28px;
 	margin-top: 11px;
@@ -483,52 +479,6 @@ hr {
 }
 
 /* End Wrapper for Google Maps */
-
-/* Being CSS for mb Banner Images */
-
-	.mbbanner {
-		max-width: 1280px;
-		width:100%;
-		margin-left: auto;
-		margin-right: auto;
-		clear: both;
-	}
-	
-	.mbbanner img {
-		width: 100%;
-		height: auto;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-/* End CSS for mb Banner Images*/
-
-/* Begin Accordion Panel Colors */
-
-.panel-heading {
-	background-color: #A9A9A9;
-}
-
-
-#mbdefaultbody .panel-default a, #mbdefaultbody .panel-default a:link, #mbdefaultbody .panel-default a:visited, #mbdefaultbody .panel-default a:active { /* sets link color for panels to black with no underline  */
-	color: #000000;
-	text-decoration: none;
-}
-
-#mbdefaultbody .panel-body a, #mbdefaultbody .panel-body a:link, #mbdefaultbody .panel-body a:visited, #mbdefaultbody .panel-body a:active { /* sets link colors inside panels back to site defaults */
-	color: #EC1B23;		/* hyperlink color for default pages */
-	text-decoration: underline;
-}
-
-#mbdefaultbody .panel-body a:hover {
-	color: #C4B59E;		/* sets color when hyperlinks hovered over on pages within panel back to site defaults */ 
-}
-
-.panel-title {
-	font-size: 12px;
-}
-
-/* End Accordion Panel Colors */
 
 /**********************************************************/
 /****************  Begin Generic Classes ******************/
