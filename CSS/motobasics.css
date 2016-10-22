@@ -39,6 +39,8 @@ hr {
 .searchicon img {
 	max-width: 28px;
 	margin-top: 11px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .searchicon img:hover {
