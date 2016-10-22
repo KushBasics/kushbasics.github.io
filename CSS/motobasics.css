@@ -23,7 +23,7 @@ hr {
 }
 
 #mbdefaultbody a, #mbdefaultbody a:link, #mbdefaultbody a:visited, #mbdefaultbody a:active {
-	color: #A7916E;		/* hyperlink color for default pages */
+	color: #EC1B23;		/* hyperlink color for default pages */
 	font-weight: bold;
 	text-decoration: underline;
 }
@@ -517,7 +517,7 @@ hr {
 }
 
 #mbdefaultbody .panel-body a, #mbdefaultbody .panel-body a:link, #mbdefaultbody .panel-body a:visited, #mbdefaultbody .panel-body a:active { /* sets link colors inside panels back to site defaults */
-	color: #A7916E;		/* hyperlink color for default pages */
+	color: #EC1B23;		/* hyperlink color for default pages */
 	text-decoration: underline;
 }
 
