@@ -297,7 +297,7 @@ hr {
 	text-decoration: none;
 }
 
-#mbfooterlinks a:hover, #contactinfo1 a:hpver {
+#mbfooterlinks a:hover, #contactinfo1 a:hover {
 	text-shadow: 1px 0px 20px #FFFFFF; /* glow color when hyperlinks hovered over on default pages*/
 	text-decoration: underline;
 }
