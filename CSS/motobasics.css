@@ -156,6 +156,8 @@ hr {
 	margin-left:auto;
 	margin-right:auto;
 	background-color:#000000;
+	position: absolute;
+	bottom: 0;
 }
 
 .nav-button {
