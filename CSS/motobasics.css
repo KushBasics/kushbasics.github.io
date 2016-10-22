@@ -37,10 +37,10 @@ hr {
 }
 
 .searchicon img {
-	max-width: 32px;
+	max-width: 24px;
 }
 
-.searchicon:hover {
+.searchicon img:hover {
 	background-color: #FF0000;
 }
 
