@@ -30,6 +30,7 @@ hr {
 
 #mbdefaultbody a:hover {
 	color: #C4B59E;		/* color when hyperlinks hovered over on default pages*/ 
+	text-shadow: 1px 0px 20px #FF0000;
 }
 
 .logo img {
