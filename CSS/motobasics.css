@@ -291,7 +291,7 @@ hr {
     color: #FFFFFF;
 }
 
-#mbfooterlinks a:link, #mbfooterlinks a:visited, #mbfooterlinks a:active {
+#mbfooterlinks a:link, a:visited, a:active, #contactinfo1 a:link, #contactinfo1 a:visited, #contactinfo1 a:active, #contactinfo1 a {
 	color: #FFFFFF;
 	font-weight: bold;
 	text-decoration: none;
@@ -429,5 +429,3 @@ hr {
 .table-responsive .table {		/* Fixes responsive table horizontal glitch on phones */
     max-width: none !important;
 }
-
-
