@@ -43,7 +43,6 @@ hr {
 .navbar-wrapper {
 	position: absolute;
 	width: 100%;
-	max-height: 10px;
 }
 
 /* Fixes rounded corners issue in Bootstrap navbar */
@@ -242,6 +241,7 @@ hr {
 	max-width:1280px;
 	margin: 0 auto 0 auto;
 	padding: 15px;
+	min-height: 400px;
 }
 
 
