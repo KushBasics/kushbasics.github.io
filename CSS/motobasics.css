@@ -235,7 +235,7 @@ hr {
 	 #mbdefaultbody {
 		margin-top: -65px;
 	    position: relative;
-	    clear: right;
+	    clear: both;
 	 }
 
 }
