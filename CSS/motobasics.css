@@ -139,16 +139,6 @@ hr {
 	background-color:#000000;
 }
 
-.logo {
-	width:202px;
-	height: 23px;
-	background: url('../images/sprites.png') -171px -301px ;
-}
-
-.logo:hover {
-	opacity: .9;
-}
-
 .nav-button {
 	clear: none;
 	margin-left: auto;
