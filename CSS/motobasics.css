@@ -37,7 +37,7 @@ hr {
 }
 
 .logo img:hover {
-    box-shadow: 0px 0px 5px #fff;
+    background-color: #FFFFFF;
 }
 
 .searchicon img {
