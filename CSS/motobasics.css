@@ -434,3 +434,48 @@ hr {
 .table-responsive .table {		/* Fixes responsive table horizontal glitch on phones */
     max-width: none !important;
 }
+
+/**********************************************************/
+/***************  Begin Post Grid CSS ******************/
+/**********************************************************/
+
+.postwrapsmall, .postwrapbig {
+	max-width: 600px;
+	width: 100%;
+	height: auto;
+	position: relative !important;
+	margin-top: 30px;
+}
+
+.postwrapbig {
+	max-width: 770px;
+}
+
+.postwrapsmall img, .postwrapbig img{
+	width: 100%;
+	height: auto;
+}
+
+.postinfo {
+	position: absolute !important;
+	width: 80%;
+	z-index: 5;
+	bottom: 60px;
+	background-color: #000000;
+	padding: 15px;
+}
+
+.postname {
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+
+@media (max-width:768px) {
+	
+	.postname {
+		font-size: 16px;
+	}
+
+}
