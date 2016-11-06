@@ -439,7 +439,7 @@ hr {
 /***************  Begin Post Grid CSS ******************/
 /**********************************************************/
 
-.postwrapsmall, .postwrapbig {
+.postwrapsmall {
 	max-width: 600px;
 	width: 100%;
 	height: auto;
@@ -447,11 +447,7 @@ hr {
 	margin-top: 30px;
 }
 
-.postwrapbig {
-	max-width: 770px;
-}
-
-.postwrapsmall img, .postwrapbig img{
+.postwrapsmall img{
 	width: 100%;
 	height: auto;
 }
