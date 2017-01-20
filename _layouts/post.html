@@ -32,11 +32,14 @@
 <div id="mbdefaultbody" class="container-fluid">
   <div class="row">
         
-        <div style="inline-block"><img src="/images/post-images/{{ page.post-image }}" alt="{{ page.title }}" style="max-width: 200px;height:auto;"/></div>
-        <div style="inline-block"><p class="uppercase">{{ page.title }}</p></div>
+        <div>
+        	<div style="inline-block"><img src="/images/post-images/{{ page.post-image }}" alt="{{ page.title }}" style="max-width: 200px;height:auto;"/></div>
+        
+			<div style="inline-block"><p class="uppercase">{{ page.title }}</p></div>
+        </div>
+        
         <hr />
-        <br />
-        	
+        <br />	
         
         {{ content }}
   </div>
