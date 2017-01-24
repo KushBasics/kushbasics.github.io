@@ -8,6 +8,3 @@ paginate: 10
 markdown: rdiscount
 permalink: :title
 highlighter: pygments
-
-gems:
-  - algoliasearch-jekyll
