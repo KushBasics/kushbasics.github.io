@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ page.title }}</title>
-    
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -23,30 +23,30 @@
   	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" /> <!-- Font 'Open Sans' Hosted by Google -->
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  	<link rel="stylesheet" href="/CSS/motobasics.css"> <!-- Additional local CSS -->
-  
+  	<link rel="stylesheet" href="/CSS/kushbasics.css"> <!-- Additional local CSS -->
+
 </head>
 <body>
 {% include navbar.html %}
 
 <div id="mbdefaultbody" class="container-fluid">
   <div class="row">
-        
+
         <div>
-        
+
         	<div style="display:inline-block;">
         		<img src="/images/post-images/{{ page.post-image }}" alt="{{ page.title }}" style="max-width: 200px;height:auto;"/>
         	</div>
-        
+
 			<div style="display:inline-block;">
 				<p class="caps title">{{ page.title }}</p>
 			</div>
-        
+
         </div>
-        
+
         <hr />
-        <br />	
-        
+        <br />
+
         {{ content }}
   </div>
 </div>

@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
-        
+
 html * {
      font-family: 'Open Sans';
 }
@@ -28,7 +28,7 @@ hr {
 	text-decoration: underline;
 }
 
-#mbdefaultbody a:hover {		 
+#mbdefaultbody a:hover {
 	text-shadow: 1px 0px 20px #FF0000; /* glow color when hyperlinks hovered over on default pages*/
 }
 
@@ -155,23 +155,23 @@ hr {
 
 /* Adjusts center alignment of dropdown menu under main categories when navbar has not collapsed */
 @media only screen and (min-width : 769px) {
-	
+
 	.dropdown-menu {
 	    left: 50% !important;
 	    margin-left: -78px;
 	}
 }
 
-/* For small devices, and after navbar collapses */ 
+/* For small devices, and after navbar collapses */
 @media only screen and (max-width : 768px) {
-  
+
 	.dropdown-menu li, .dropdown-menu li a, .dropdown-menu ul {
 		text-align: center;
 		color: #000000;
 		list-style: none;
 		padding-left: 0 !important;
 	}
-	
+
 }
 
 @media only screen and (max-width : 950px) {
@@ -186,7 +186,7 @@ hr {
 	.nav-button {
 		display: none;
 	}
-	
+
 }
 
 @media (max-width: 768px) {
@@ -202,15 +202,15 @@ hr {
 	}
 }
 
-/* Makes space between navbar and slideshow disappear after collapse - required for relative positioning so menu makes divs below the navbar move down when open */ 
+/* Makes space between navbar and slideshow disappear after collapse - required for relative positioning so menu makes divs below the navbar move down when open */
  @media all and (max-width: 950px ){
-	 
+
 	 .navbar-wrapper {
 	 	clear:right;
 	 	position: relative;
 	 	padding-bottom: 0px;
 	 }
-	 
+
 	 #mbdefaultbody {
 		margin-top: -65px;
 	    position: relative;
@@ -357,7 +357,7 @@ hr {
 /* Added to make Bootstrap row divs with pictures the same height  */
 
 .row, .row-fluid {
-    overflow: hidden !important; 
+    overflow: hidden !important;
     padding: 10px !important;
 }
 
@@ -377,7 +377,7 @@ hr {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-		
+
 }
 
 /* End Wrapper for Google Maps */
@@ -401,7 +401,7 @@ hr {
 }
 
 .swag {
-	
+
 }
 
 .hover:hover {
@@ -417,7 +417,7 @@ hr {
 }
 
 .responsive, .responsive img {
-	width: 100%; 
+	width: 100%;
 	height: auto;
 }
 
@@ -465,7 +465,7 @@ hr {
 
 
 @media (max-width:768px) {
-	
+
 	.postname {
 		font-size: 12px;
 	}
