@@ -11,8 +11,8 @@ h1, h2, h3, h4, h5, h6 {
 
 hr {
 	height: 2px;
-	color: #EC1B23;
-	background-color: #EC1B23;
+	color: #0B6623;
+	background-color: #0B6623;
 	border: none;
 	margin-top: 3px;
 	margin-bottom: 3px;
@@ -23,13 +23,13 @@ hr {
 }
 
 #mbdefaultbody a, #mbdefaultbody a:link, #mbdefaultbody a:visited, #mbdefaultbody a:active {
-	color: #EC1B23;		/* hyperlink color for default pages */
+	color: #0B6623;		/* hyperlink color for default pages */
 	font-weight: bold;
 	text-decoration: underline;
 }
 
 #mbdefaultbody a:hover {
-	text-shadow: 1px 0px 20px #FF0000; /* glow color when hyperlinks hovered over on default pages*/
+	text-shadow: 1px 0px 20px #00A86B; /* glow color when hyperlinks hovered over on default pages*/
 }
 
 .logo img {
@@ -59,6 +59,7 @@ hr {
 .navbar-wrapper {
 	position: absolute;
 	width: 100%;
+  background-color: #FFFFFF !important;
 }
 
 /* Fixes rounded corners issue in Bootstrap navbar */
@@ -83,12 +84,13 @@ hr {
 	.navbar-inverse .navbar-toggle:focus, 		/* menu icon background color when it is clicked into */
 	.navbar-inverse .navbar-toggle:hover 		/* menu icon background color when hovered over */
 	{
-	background-color: #EC1B23 !important; /* Overwrites Bootstrap's !important */
+	background-color: #00A86B !important; /* Overwrites Bootstrap's !important */
 }
 
-/* Makes headers of the dropdown menus white and bold */
+/* Makes headers of the dropdown menus colored and bold */
 .navbar-inverse .nav li .dropdown-toggle, .navbar-inverse .nav li .dropdown-toggle:hover  {
-    color: #FFFFFF !important; /* Overwrites Bootstrap's !important */
+    color: #0B6623 !important;  /* Overwrites Bootstrap's !important */
+    /* color: #FFFFFF !important; Overwrites Bootstrap's !important */
 }
 
 .dropdown-menu li {
@@ -126,15 +128,15 @@ hr {
 }
 
 #navbamb {
-	background-color: #000000;
-	width: 100%;
+	background-color: #FFFFFF;
+	max-width: 1280px;
 }
 
 #mbnavbar {
 	max-width: 100%;
 	margin-left:auto;
 	margin-right:auto;
-	background-color:#000000;
+	background-color:#FFFFFF;
 }
 
 .nav-button {
@@ -263,14 +265,14 @@ hr {
 /*** Begin Footer ***/
 
 #mbfootemb {
-	background-color: #000000;
+	background-color: #FFFFFF;
 	width: 100%;
 }
 
 #mbfooter {
   max-width: 1280px;
   margin: 0 auto 0 auto;
-  background-color:#000000;
+  background-color:#FFFFFF;
 }
 
 #mbfooterlinks {
@@ -293,17 +295,17 @@ hr {
     list-style-type: none;
     box-sizing: border-box;
     text-align: center;
-    color: #FFFFFF;
+    color: #0B6623;
 }
 
 #mbfooterlinks a:link, a:visited, a:active, #contactinfo1 a:link, #contactinfo1 a:visited, #contactinfo1 a:active, #contactinfo1 a {
-	color: #FFFFFF;
+	color: #0B6623;
 	font-weight: bold;
 	text-decoration: none;
 }
 
 #mbfooterlinks a:hover, #contactinfo1 a:hover {
-	text-shadow: 1px 0px 20px #FF0000; /* glow color when hyperlinks hovered over on default pages*/
+	text-shadow: 1px 0px 20px #00A86B; /* glow color when hyperlinks hovered over on default pages*/
 	text-decoration: underline;
 }
 
